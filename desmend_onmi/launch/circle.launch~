@@ -1,0 +1,4 @@
+<launch>
+	<node name="base_control" pkg="desmend_onmi" type="base_control"/>
+	<param name="speed" value="4.0" />
+</launch>

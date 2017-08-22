@@ -1,0 +1,5 @@
+<launch>
+	<node name="base_control" pkg="desmend_onmi" type="base_control"/>
+	<rosparam command="load" file="$(find desmend_onmi)/param/base.yaml"/>
+</launch>
+
